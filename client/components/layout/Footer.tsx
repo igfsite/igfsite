@@ -55,6 +55,26 @@ export function Footer() {
                 Partners
               </Link>
             </li>
+            <li>
+              <Link to="/faq" className="hover:text-primary">
+                FAQ
+              </Link>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4 className="font-semibold mb-3">Legal</h4>
+          <ul className="text-sm space-y-2">
+            <li>
+              <Link to="/privacy" className="hover:text-primary">
+                Privacy Policy
+              </Link>
+            </li>
+            <li>
+              <Link to="/terms" className="hover:text-primary">
+                Terms of Use
+              </Link>
+            </li>
           </ul>
         </div>
         <div>
