@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   base: "/", // user/organization GitHub Pages repo (igfsite.github.io) is served from root
   build: {
-    outDir: "dist",
+    outDir: "dist/spa",
     sourcemap: true,
   },
   resolve: {
