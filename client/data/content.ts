@@ -1,7 +1,7 @@
 export const upcomingEvent = {
-  title: "IMT 2025: Igiehon Mathematics Tournament",
+  title: "4th Igiehon Mathematics Tournament",
   date: "29 Nov 2025",
-  venue: "SIO Event Center, GRA, Benin City, Edo State",
+  venue: "Benin City, Edo State",
   // Display window text
   registrationWindow: "1 Oct 2025 to 1 Nov 2025",
   // Registration period (local time)

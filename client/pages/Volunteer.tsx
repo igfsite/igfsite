@@ -18,7 +18,7 @@ export default function Volunteer() {
                   Volunteer
                 </h1>
                 <p className="mt-2 text-muted-foreground max-w-2xl">
-                  Be part of a high-impact team delivering IMT 2025. Roles
+                  Be part of a high-impact team delivering the 4th Igiehon Mathematics Tournament. Roles
                   include logistics, ushering, scoring, communications and
                   media.
                 </p>
@@ -43,7 +43,8 @@ export default function Volunteer() {
             </div>
             <div className="rounded-xl border bg-card p-6">
               <Reveal>
-                <h3 className="font-semibold mb-4">Volunteer Intake Form</h3>
+                <h3 className="font-semibold mb-1">Volunteer Intake Form</h3>
+                <p className="text-xs text-muted-foreground mb-4">Location: Benin City, Edo State</p>
                 <RegistrationForm interest="volunteer" />
               </Reveal>
             </div>

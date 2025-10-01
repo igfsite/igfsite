@@ -28,9 +28,6 @@ export default function Contact() {
                       Lagos Office: F19, Lekki Town Square Mall, Providence Road, Marwa, Lekki
                       Phase 1, Lagos
                     </li>
-                    <li>
-                      Event Venue: SIO Event Center, 8, Red Cross Crescent, Off Ikpopan Rd,GRA, Benin City, Edo State
-                    </li>
                     <li>Email: info@igiehonfoundation.org</li>
                   </ul>
                 </div>
