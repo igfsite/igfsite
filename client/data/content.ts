@@ -1,7 +1,7 @@
 export const upcomingEvent = {
-  title: "IMT 2025: Igiehon Mathematics Tournament",
+  title: "4th Igiehon Mathematics Tournament",
   date: "29 Nov 2025",
-  venue: "SIO Event Center, GRA, Benin City, Edo State",
+  venue: "Benin City, Edo State",
   // Display window text
   registrationWindow: "1 Oct 2025 to 1 Nov 2025",
   // Registration period (local time)
@@ -20,9 +20,7 @@ export const pastEvents = [
   {
     title: "IMT 2024 — Edo Innovation Hub",
     date: "16 Nov 2024",
-    image: "igfsite/public/images
-/IMG-20250925-WA0000 (1).jpg
-",
+    image: "https://igiehonfoundation.org/assets/images/winnersawsrd-902x856.webp",
   },
   {
     title: "Winners & Awards",

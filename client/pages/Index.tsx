@@ -79,9 +79,7 @@ export default function Index() {
             <div className="mt-8 rounded-lg border p-4 bg-card/60">
               <p className="text-sm text-muted-foreground">Upcoming Event</p>
               <p className="mt-1 font-semibold">{upcomingEvent.title}</p>
-              <p className="mt-1">
-                {upcomingEvent.date} · {upcomingEvent.venue}
-              </p>
+              <p className="mt-1">{upcomingEvent.date}</p>
               <p className="text-sm mt-1">
                 Registration Window: {upcomingEvent.registrationWindow}
               </p>
@@ -135,10 +133,10 @@ export default function Index() {
         <div className="container py-16 md:py-24 grid md:grid-cols-2 gap-10 items-start">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-              Register for IMT 2025
+              Register for the 4th Igiehon Mathematics Tournament
             </h2>
             <p className="text-muted-foreground mt-2">
-              Event: {upcomingEvent.date} • Venue: {upcomingEvent.venue}
+              Event: {upcomingEvent.date} • Benin City, Edo State
             </p>
             <ul className="mt-4 text-sm list-disc pl-5 space-y-1 text-muted-foreground">
               <li>Free registration</li>
