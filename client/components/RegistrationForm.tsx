@@ -217,6 +217,7 @@ export function RegistrationForm({
             <div className="text-sm text-muted-foreground">{progress}%</div>
           </div>
           <Progress value={progress} />
+          <p className="text-xs text-muted-foreground">Location: Benin City, Edo State</p>
           <div className="flex flex-wrap gap-2 text-xs text-muted-foreground">
             {steps.map((s, i) => (
               <span key={s.key} className={`px-2 py-1 rounded ${i === step ? 'bg-primary text-primary-foreground' : 'bg-secondary'}`}>{s.label}</span>
@@ -271,8 +272,6 @@ export function RegistrationForm({
                       <SelectItem value="student">Student</SelectItem>
                       <SelectItem value="teacher">Teacher</SelectItem>
                       <SelectItem value="parent">Parent</SelectItem>
-                      <SelectItem value="volunteer">Volunteer</SelectItem>
-                      <SelectItem value="partner">Partner</SelectItem>
                       <SelectItem value="other">Other</SelectItem>
                     </SelectContent>
                   </Select>
@@ -280,24 +279,6 @@ export function RegistrationForm({
                 </FormItem>
               )} />
 
-              <FormField control={form.control} name="interest" render={({ field }) => (
-                <FormItem>
-                  <FormLabel>Interest</FormLabel>
-                  <Select onValueChange={field.onChange} defaultValue={field.value}>
-                    <FormControl>
-                      <SelectTrigger>
-                        <SelectValue placeholder="Choose interest" />
-                      </SelectTrigger>
-                    </FormControl>
-                    <SelectContent>
-                      <SelectItem value="event">IMT 2025 Event</SelectItem>
-                      <SelectItem value="volunteer">Volunteer</SelectItem>
-                      <SelectItem value="partner">Strategy Partner</SelectItem>
-                    </SelectContent>
-                  </Select>
-                  <FormMessage />
-                </FormItem>
-              )} />
             </motion.div>
           )}
 
