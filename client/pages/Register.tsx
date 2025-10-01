@@ -22,10 +22,10 @@ export default function Register() {
           <div className="container py-16 md:py-24 grid md:grid-cols-2 gap-10 items-start">
             <div>
               <h1 className="text-3xl md:text-4xl font-bold tracking-tight">
-                Register
+                Register for the 4th Igiehon Mathematics Tournament
               </h1>
               <p className="text-muted-foreground mt-2">
-                Event: {upcomingEvent.date} • Venue: {upcomingEvent.venue}
+                Event: {upcomingEvent.date} • Benin City, Edo State
               </p>
               <ul className="mt-4 text-sm list-disc pl-5 space-y-1 text-muted-foreground">
                 <li>Free registration</li>
