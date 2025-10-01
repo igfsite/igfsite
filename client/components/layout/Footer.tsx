@@ -6,7 +6,8 @@ const logoUrl =
 export function Footer() {
   return (
     <footer className="border-t bg-muted/20">
-      <div className="container py-10 grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="container py-10 grid grid-cols-1 md:grid-cols-5 gap-8 items-start">
+        {/* Company */}
         <div className="space-y-3">
           <div className="flex items-center gap-3">
             <img
@@ -21,15 +22,8 @@ export function Footer() {
             competitions, mentorship and community programs.
           </p>
         </div>
-        <div>
-          <h4 className="font-semibold mb-3">Contact</h4>
-          <ul className="text-sm space-y-2 text-muted-foreground">
-            <li>
-              Lagos Office: F19, Lekki Town Square Mall, Providence Road, Marwa, Lekki, Phase 1, Lagos
-            </li>
-            <li>Email: info@igiehonfoundation.org</li>
-          </ul>
-        </div>
+
+        {/* Explore */}
         <div>
           <h4 className="font-semibold mb-3">Explore</h4>
           <ul className="text-sm space-y-2">
@@ -49,7 +43,12 @@ export function Footer() {
               </Link>
             </li>
             <li>
-              <Link to="/partners" className="hover:text-primary">
+              <Link to="/#impact" className="hover:text-primary">
+                Impact
+              </Link>
+            </li>
+            <li>
+              <Link to="/#partners" className="hover:text-primary">
                 Partners
               </Link>
             </li>
@@ -60,6 +59,8 @@ export function Footer() {
             </li>
           </ul>
         </div>
+
+        {/* Legal */}
         <div>
           <h4 className="font-semibold mb-3">Legal</h4>
           <ul className="text-sm space-y-2">
@@ -75,6 +76,8 @@ export function Footer() {
             </li>
           </ul>
         </div>
+
+        {/* Follow */}
         <div>
           <h4 className="font-semibold mb-3">Follow</h4>
           <ul className="text-sm space-y-2">
@@ -118,6 +121,17 @@ export function Footer() {
                 TikTok
               </a>
             </li>
+          </ul>
+        </div>
+
+        {/* Contact */}
+        <div>
+          <h4 className="font-semibold mb-3">Contact</h4>
+          <ul className="text-sm space-y-2 text-muted-foreground">
+            <li>
+              Lagos Office: F19, Lekki Town Square Mall, Providence Road, Marwa, Lekki, Phase 1, Lagos
+            </li>
+            <li>Email: info@igiehonfoundation.org</li>
           </ul>
         </div>
       </div>
